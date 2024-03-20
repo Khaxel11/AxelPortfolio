@@ -45,7 +45,7 @@ const Hero = () => {
           <motion.h2 variants={textVariants} >SOFTWARE ENGENIEER</motion.h2>
           <motion.h1 variants={textVariants} >FullStack Developer</motion.h1>
           <motion.div className="buttons variants={textVariants} ">
-            <motion.button variants={textVariants} >See the Latest Works</motion.button>
+            <motion.button variants={textVariants} >About Me</motion.button>
             <motion.button variants={textVariants} >Contact Me</motion.button>
           </motion.div>
           <motion.img variants={textVariants}  src="/scroll.png" alt="" animate="scrollButton"/>
@@ -56,9 +56,11 @@ const Hero = () => {
         Software Engenieer
       </motion.div>
 
-      <div className="imageContainer">
+      <motion.div className="imageContainer" initial={{ y: 500}} 
+          animate={{ y: 0 }} 
+          transition={{ duration: 0.8 }}>
         <img src="/hero.png" alt="" />
-      </div>
+      </motion.div>
     </div>
   )
 }

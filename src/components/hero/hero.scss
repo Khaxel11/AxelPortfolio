@@ -53,6 +53,7 @@
         right: 0;
         img {
             filter: drop-shadow(30px 30px 20px rgba(102, 51, 153, 0.199));
+            mask-image: linear-gradient(black 30%, transparent);
           }
     }
 

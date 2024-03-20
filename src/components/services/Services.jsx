@@ -36,18 +36,18 @@ const Services = () => {
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
                     <img src="/people.webp" alt="" />
-                    <h1><motion.b whileHover={{color: "orange"}}>Unique</motion.b> Ideas</h1>
+                    <h1><motion.b whileHover={{color: "#ffa500"}}>Unique</motion.b> Ideas</h1>
                 </div>
                 <div className="title">
-                <h1>Fast <motion.b whileHover={{color: "orange"}}b>Learning</motion.b></h1>
+                <h1>Fast <motion.b whileHover={{color: "#ffa500"}}b>Learning</motion.b></h1>
                 </div>
                 <div className="title">
-                <h1>Fast <motion.b whileHover={{color: "orange"}}b>Adaptability</motion.b></h1>
+                <h1>Fast <motion.b whileHover={{color: "#ffa500"}}b>Adaptability</motion.b></h1>
                 <button>Know More</button>
                 </div>
             </motion.div>
             <motion.div className="listContainer variants={variants}">
-                <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
+                <motion.div className="box" whileHover={{background: "#808080", color: "#000000"}}>
                     <h2>Programming Languages</h2>
                     <p>TypeScript</p>
                     <p>JavaScript</p>
@@ -56,7 +56,7 @@ const Services = () => {
                     <p>Visual Basic</p>
                     <button>Learn More</button>
                 </motion.div>
-                <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
+                {/* <motion.div className="box" whileHover={{background: "rgba(0, 0, 0, 0)", color: "#rgba(0,0,0,.8)"}}>
                     <h2>Web Development</h2>
                     <p>HTML</p>
                     <p>CSS / SCSS</p>
@@ -78,7 +78,7 @@ const Services = () => {
                     <p>MongoDB (Basic)</p>
                     <p>Firebase (Basic)</p>
                     <button>Learn More</button>
-                </motion.div>
+                </motion.div> */}
 
             </motion.div>
         </motion.div>

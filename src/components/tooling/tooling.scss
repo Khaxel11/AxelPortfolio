@@ -35,6 +35,30 @@
           
         }
     }
+
+    .legendContainer{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        .legendBox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .boxColor{
+                width: 30px;
+                height: 30px;
+                border-radius: 10px;
+            }
+            p{
+                font-size: 25px;
+                font-weight: 200;
+            }
+        }
+
+    }
+
+
     }
     .gridContainer {
         display: flex;
@@ -73,4 +97,5 @@
           margin-right: 5px;
         }
       }
+      
       

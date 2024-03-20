@@ -4,11 +4,15 @@ import Hero from "./components/hero/Hero";
 import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import Tooling from "./components/tooling/Tooling";
+import About from "./components/about/About";
 const App = () => {
   return <div>
     <section id="HomePage">
       <Navbar />
       <Hero />
+    </section>
+    <section>
+      <About />
     </section>
     <section id="Services">
       <Parallax type="services" />
