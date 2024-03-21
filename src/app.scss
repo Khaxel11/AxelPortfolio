@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'atomic'; /* Nombre que deseas asignar a la fuente */
+    src: url('fonts/atomic.woff2') format('woff2'), 
+         
+  }
+
 html{
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;

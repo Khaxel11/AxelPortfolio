@@ -4,44 +4,133 @@
     flex-wrap: wrap;
     max-width: 1366px;
     margin: auto;
-
+    
+    height: 100%;
+    overflow: hidden;
     .nameContainer {
-        width: 50%;
-        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 10px;
         margin-top: 100px;
         position: relative;
-        span{
-            font-size:  60px;
+
+        span {
+            font-size: 60px;
             font-weight: 300;
         }
-        h5{
+
+        h5 {
             display: flex;
             position: absolute;
             bottom: 0px;
-            right: 100px;
+            right: 20px;
             font-size: 18px;
             font-family: 'Courier New', Courier, monospace;
-            
-
         }
     }
 
     .imageContainer {
         position: absolute;
-        display: flex;
-
+        
         top: 25vh;
         right: 0;
-        left: 30%;
-        overflow: hidden;
+        width: 50%;
+        height: 100%;
+        shape-outside: url("/Laptop.png"); 
 
         img {
-            width: 150vh;
-
+            position: absolute;
+            width: 100%;
+            right: 0;
+            height: auto;
+            object-fit: cover;
+            clip-path: inset(0); 
         }
     }
+    .descriptionContainer {
+        
+        height: 100%;
+        display: flex;
+        flex-direction: column; 
+        align-items: start; 
+        margin-top: 10px;
+
+        p {
+            margin-top: 15px;
+            max-width: 50%; 
+            text-align: start; 
+            font-size: 25px;   
+            
+            font-weight: 00;
+        }
+        .txtOrange{
+            
+            color: orange;
+        }
+        .cursive{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+
+    }
+    .essentialsContainer {
+        position: absolute;
+        right: 300px;
+        top: 60%;
+            .items{
+                position: absolute;
+                width: 500px;
+                height: 100px;
+                top: -150px;
+                display: flex;
+                left: 100px;
+            }
+            .icons{
+                display: flex;
+                justify-content: center;
+                width: 100px;
+                height: 100px;
+                
+                flex-direction: column;
+                justify-content: center;                               
+                .img{
+                    object-fit: fill;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+          .circle {
+            position: absolute;
+            
+            left: -30px;
+            width: 150%;
+            height: 100%;
+            z-index: 1;
+          }
+          
+          .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: white; 
+            font-size:  40px;  
+            text-align: center;
+            font-family: atomic;
+            color: orange;
+          }
+          
+          .arrow {
+            display: flex;
+            position: relative;
+            z-index: 3;
+            left: 100px;
+            bottom: -30px;
+          }
+      }
+      
+      
+      
 }

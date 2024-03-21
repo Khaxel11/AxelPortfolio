@@ -37,6 +37,13 @@ const sliderVariants = {
     },
   }
 }
+const handleScrollToAbout = () => {
+  const aboutSection = document.getElementById('About');
+  if (aboutSection) {
+    aboutSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -45,8 +52,10 @@ const Hero = () => {
           <motion.h2 variants={textVariants} >SOFTWARE ENGENIEER</motion.h2>
           <motion.h1 variants={textVariants} >FullStack Developer</motion.h1>
           <motion.div className="buttons variants={textVariants} ">
-            <motion.button variants={textVariants} >About Me</motion.button>
-            <motion.button variants={textVariants} >Contact Me</motion.button>
+          <motion.button variants={textVariants} onClick={handleScrollToAbout} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>
+            About Me
+          </motion.button>
+            <motion.button variants={textVariants} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>Contact Me</motion.button>
           </motion.div>
           <motion.img variants={textVariants}  src="/scroll.png" alt="" animate="scrollButton"/>
         </motion.div>
