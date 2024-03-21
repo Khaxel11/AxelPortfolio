@@ -21,4 +21,34 @@
             }
         }
     }
+    @media (max-width: 920px) {
+        .wrapper {
+            padding: 0 10px; 
+            display: flex;
+            span {
+                
+              font-size: 40px;
+              display: block;
+              justify-content: center;
+              align-items: center;
+              position: absolute;
+              right: 10px;
+            }
+      
+            .social {
+              gap: 5px; 
+              position: absolute;
+              right: 10px;
+              top: 10%;
+              img {
+                width: 7vw; 
+                height: 7vw;
+              }
+            }
+          }
+      
+       
+    
+        
+      }
 }
