@@ -51,9 +51,10 @@
         position: absolute;
         top: 0;
         right: 0;
+        z-index: 2;
         img {
             filter: drop-shadow(30px 30px 20px rgba(102, 51, 153, 0.199));
-            // mask-image: linear-gradient(black 30%, transparent);
+            // mask-image: linear-gradient(black 80%, transparent);
           }
     }
 

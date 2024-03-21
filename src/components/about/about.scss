@@ -74,6 +74,47 @@
 
 
     }
+    .essentialsItems{
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        width: 400px;
+        label{
+            margin-bottom: 10px;
+            a{
+                font-size: 20px;
+                font-family: atomic;
+                
+            }
+            
+        }
+        .hoverEffect {
+            position: relative;
+            display: inline-block;
+            transition: color 0.3s ease, transform 0.3s ease;
+          }
+          
+          .hoverEffect::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 2px; 
+            background-color: transparent;
+            transition: background-color 0.3s ease;
+          }
+          
+          .hoverEffect:hover::after {
+            background-color: #ffffff; 
+          }
+          
+          .hoverEffect:hover {
+            color: orange; 
+            transform: translateY(-1px);
+          }
+          
+    }
     .essentialsContainer {
         position: absolute;
         right: 300px;
@@ -126,8 +167,9 @@
             display: flex;
             position: relative;
             z-index: 3;
-            left: 100px;
-            bottom: -30px;
+            left: 150px;
+            bottom: 10px;
+          
           }
       }
       
