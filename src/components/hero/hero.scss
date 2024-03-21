@@ -69,4 +69,57 @@
         font-weight: bold;
         pointer-events: none;
     }
+    @media (max-width: 920px) {
+        .wrapper {
+            z-index: 1;
+            padding: 10px;
+          .textContainer {
+            width: 100%;
+            gap: 5vw; 
+            h2{
+                font-size: 18px;
+            }
+
+            h1{
+                font-size: 50px;
+            }
+            .buttons{
+                button{
+                    padding: 10px;
+                    margin-right: 50%;
+                    margin-top: 10px;
+                }
+              }
+          }
+         
+        }
+    
+        .imageContainer {
+            height: 100%;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            border-color: greenyellow;
+            right: 0;
+            
+            display: flex;
+            img {
+                display: flex;
+                // z-index:3;
+                height: 50%;
+                justify-content: end;
+                align-items: end;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                
+            }
+        }
+    
+        .slidingTextContainer {
+            font-size: 20vh;
+            margin-bottom: 20%;
+          
+        }
+      }
 }
