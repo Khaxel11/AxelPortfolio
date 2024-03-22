@@ -1,6 +1,6 @@
 .services{
    background-color: linear-gradient(180degm #0c0c1d, #111132);
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column; 
@@ -76,6 +76,68 @@
                 background-color: #ffa500;
                 border: none;
                 cursor: pointer;
+            }
+        }
+    }
+
+    @media (max-width: 920px) {
+        padding: 20px;
+        .textContainer{
+            p{
+                font-size: 20px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            hr{
+                display: none;
+            }
+        }
+        .titleContainer{
+
+            display: contents;
+            align-items: center;
+            .title{
+                display: contents;
+                align-items: center;
+                gap: 10px;
+    
+                img{
+                    width: 100%;
+                    height: 100px;
+                    margin-top: 20px;
+                }
+    
+                h1{
+                    font-size: 50px;
+                    font-weight: 100;
+                    text-align: center;
+                }
+                button{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 18px;
+                }
+            }
+            .listContainer{
+                // flex: 2;
+                
+                
+                
+                
+                .box{
+                    
+                    
+                    
+                    
+                    
+                    
+                    button{
+                        background-color: green;    
+                        
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }
