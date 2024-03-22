@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     max-width: 1366px;
     margin: auto;
-    
-    height: 100%;
+    padding: 10px;
+    min-height: 100vh;
     overflow: hidden;
     .nameContainer {
         display: flex;
@@ -175,22 +175,23 @@
       
       @media (max-width: 920px) {
         padding: 10px;
+        display: flex;
         .nameContainer {
             display: flex;
             flex-direction: row;
             justify-content: center;
             gap: 8px;
             margin-top: 80px;
-            position: relative;
-    
+            
+            position: absolute;
+            
             span {
                 font-size: 35px;
-                // font-weight: 300;
+                
             }
     
             h5 {
                 display: none;
-
             }
         }
     
@@ -222,9 +223,11 @@
             
         }
         .descriptionContainer {
+            margin-top: 20vh;
         p {
             font-size: 16px;
-            max-width: 80%;
+            max-width: 100%;
+            
         }
         }
 
