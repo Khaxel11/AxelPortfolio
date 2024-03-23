@@ -10,8 +10,8 @@ const other = "#cfdd0b";
 
 const legends = [{legend : "Web Development", color: Web},
 {legend : "Programming Languages", color : Language},
-{legend: "Mobile Apps Development", color: Movil},
 {legend: "Database Management", color: database},
+{legend: "Mobile Apps Development", color: Movil},
 {legend: "Others", color : other}
 ];
 

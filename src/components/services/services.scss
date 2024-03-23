@@ -96,6 +96,7 @@
 
             display: contents;
             align-items: center;
+            
             .title{
                 display: contents;
                 align-items: center;
@@ -118,25 +119,30 @@
                     font-size: 18px;
                 }
             }
-            .listContainer{
-                // flex: 2;
+            
+        }
+        .listContainer{
+            margin-top: 30px;
+            flex: 2;
+            
+            display: flex;
+            flex-direction: column; 
+            gap: 10px;
+            
+            
+            .box{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
                 
                 
                 
                 
-                .box{
-                    
-                    
-                    
-                    
-                    
-                    
-                    button{
-                        background-color: green;    
-                        
-                        border: none;
-                        cursor: pointer;
-                    }
+                button{                    
+                    border: none;
+                    cursor: pointer;
+                    margin-top: 10px;
                 }
             }
         }
