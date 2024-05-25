@@ -49,7 +49,7 @@ const Services = () => {
             animate={isInView ? 'animate' : 'initial'}
             ref={ref}
         >
-            <motion.div className="textContainer" variants={variants}>
+            <motion.div className="text-container" variants={variants}>
                 <p>I focus on combining technical knowledge<br /> with creativity to craft solutions and experiences</p>
                 <hr />
             </motion.div>
@@ -68,35 +68,35 @@ const Services = () => {
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
                 <motion.div className="box" whileHover={{backgroundColor: "#808080", color: "#000000"}}>
-                    <h2>Programming Languages</h2>
-                    <p>TypeScript</p>
-                    <p>JavaScript</p>
-                    <p>C#</p>
-                    <p>JAVA</p>
-                    <p>Visual Basic</p>
+                    <h2>Soft Skills</h2>
+                    <p><b>● </b>Leadership and Teamwork</p>
+                    <p><b>● </b>Communication</p>
+                    <p><b>● </b>Creativity and Innovation</p>
+                    <p><b>● </b>Problem Solving and Critical Thinking</p>
+                    <p><b>● </b>Continuous Learning</p>
                     <button>Learn More</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{backgroundColor: "#808080", color: "#000000"}}>
-                    <h2>Web Development</h2>
-                    <p>HTML</p>
-                    <p>CSS / SCSS</p>
-                    <p>Angular</p>
-                    <p>React</p>
-                    <p>Learning Tailwind!</p>
+                    <h2>Languages</h2>
+                    <p><b>● </b>Spanish <b>(Native)</b></p>
+                    <p><b>● </b>English <b>(C1)</b></p>
+                    <p><b>● </b>French <b>(A1)</b></p>
+                    
+                
                     <button>Learn More</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{backgroundColor: "#808080", color: "#000000"}}>
-                    <h2>Mobile Development</h2>
-                    <p>Ionic</p>
-                    <p>Android JAVA</p>
+                    <h2>Awards</h2>
+                    <p><b>● </b>Hightest GPA in ITSON <a href=""> (Score 99)</a></p>
+                    <p><b>● </b>Academic Merit in Engineering<a href="https://www.itson.mx/Lists/Noticias/DispForm.aspx?ID=4570&ContentTypeId=0x0104004DA3B718FBF0C6419EA99C9ECEC963DC"> (MAI)</a></p>
+                    <p><b>● </b>Valuable Participation in <a href="https://diariodelyaqui.mx/sonora/exitoso-evento-de-nasa/22876">NASA SPACE APPS CHALLENGE 2019</a></p>
                     <button>Learn More</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{backgroundColor: "#808080", color: "#000000"}}>
-                    <h2>Database Managment</h2>
-                    <p>SQL Server / T-SQL</p>
-                    <p>MySQL</p>
-                    <p>MongoDB (Basic)</p>
-                    <p>Firebase (Basic)</p>
+                    <h2>Personal Information</h2>
+                    <p><b>● </b>I ♥ Coffee</p>
+                    <p><b>● </b>I ♥ Code and Music</p>
+                    
                     <button>Learn More</button>
                 </motion.div>
 
