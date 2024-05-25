@@ -66,7 +66,7 @@ const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
     ref={ref}
     animate={isInView && "animate"}
     >
-        <motion.div className="textContainer">
+        <motion.div className="text-container">
             <span>Tooling</span>
         </motion.div>
         <motion.div className="legendContainer">
