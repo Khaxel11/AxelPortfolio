@@ -43,7 +43,12 @@ const handleScrollToAbout = () => {
     aboutSection.scrollIntoView({ behavior: 'smooth' });
   }
 };
-
+const handleScrollToContact= () => {
+  const contactSection = document.getElementById('Contact');
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 const Hero = () => {
   return (
     <div className='hero'>
@@ -55,7 +60,7 @@ const Hero = () => {
           <motion.button variants={textVariants} onClick={handleScrollToAbout} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>
             About Me
           </motion.button>
-            <motion.button variants={textVariants} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>Contact Me</motion.button>
+            <motion.button variants={textVariants} onClick={handleScrollToContact} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>Contact Me</motion.button>
           </motion.div>
           <motion.img variants={textVariants}  src="/scroll.png" alt="" animate="scrollButton"/>
         </motion.div>
@@ -68,7 +73,7 @@ const Hero = () => {
       <motion.div className="imageContainer" initial={{ y: 500}} 
           animate={{ y: 0 }} 
           transition={{ duration: 0.8 }}>
-        <img src="/hero.png" alt="" />
+        <img src="/hero-1.png" alt="" />
       </motion.div>
     </div>
   )

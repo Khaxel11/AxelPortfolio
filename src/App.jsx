@@ -7,6 +7,7 @@ import Tooling from "./components/tooling/Tooling";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Quote from "./components/quote/Quote";
+import Contact from "./components/contact/Contact";
 const App = () => {
   return <div>
     <section id="HomePage">
@@ -34,8 +35,10 @@ const App = () => {
     <section>
       <Quote/>
       </section>
-    <section id="Contact">Portfolio3</section>
-    <section>Contact</section>
+    {/* <section id="Contact">Portfolio3</section> */}
+    <section id="Contact">
+      <Contact/>
+    </section>
   </div>;
 };
 

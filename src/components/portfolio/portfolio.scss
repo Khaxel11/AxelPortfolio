@@ -3,6 +3,7 @@
   width: 100%;
   height: 100%;
   padding: 20px;
+  
   .text-title {
       border-radius: 12px;
       display: flex;
@@ -57,7 +58,7 @@
   object-fit: cover;
 }
 
-.textContainer {
+.textContainer-port {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -78,7 +79,8 @@
       width: 150px;
       height: 30px;
       border-radius: 15px;
-      background-color: #ffa500;
+      background-color: #ea412a;
+      //  #ffa500;
       border: none;
       font-size: 14px; 
       cursor: pointer;

@@ -30,7 +30,7 @@ const ProjectCard = ({ project, index }) => {
                     <img className='img-content' src={project.imgSrc} alt={project.title} />
                 </div>
                 <motion.div
-                    className="textContainer"
+                    className="textContainer-port"
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}

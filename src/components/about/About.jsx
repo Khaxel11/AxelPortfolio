@@ -106,7 +106,7 @@ const About = () => {
                 delay: i / 45,
               }}
               key={i}
-              style={{ color: i >= 10 ? 'orange' : '' }}
+              style={{ color: i >= 10 ? '#ea412a' : '' }}
 
             >
               <b >{el}{" "}</b>
