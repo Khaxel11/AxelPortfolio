@@ -7,14 +7,14 @@ const Quote = () => {
       <div className="quote-container">
         <motion.img 
           className='quote-up' 
-          src="../../../public/quote-up.svg" 
+          src="./quote-up.svg" 
           alt="quote-up" 
           animate={{ y: [0, -10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         />
         <motion.img 
           className='quote-down' 
-          src="../../../public/quote-down.svg" 
+          src="./quote-down.svg" 
           alt="quote-down" 
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
@@ -50,18 +50,18 @@ const Quote = () => {
           animate={{ y: [0, 10, 0], opacity: [1, 0, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          contact me
+          Contact Me
         </motion.p>
          <motion.img 
           className='arrow-down-small' 
-          src="../../../public/running-arrow-svgrepo-com.svg" 
+          src="./running-arrow-svgrepo-com.svg" 
           alt="arrow-down" 
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         />
         <motion.img 
           className='arrow-down' 
-          src="../../../public/running-arrow-svgrepo-com.svg" 
+          src="./running-arrow-svgrepo-com.svg" 
           alt="arrow-down" 
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}

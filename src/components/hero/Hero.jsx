@@ -1,5 +1,7 @@
 import './hero.scss'
 import { motion } from 'framer-motion'
+import LaptopImage from '../../../public/Laptop.png';
+
 const textVariants = {
   initial: {
     x: -500,
@@ -62,18 +64,25 @@ const Hero = () => {
           </motion.button>
             <motion.button variants={textVariants} onClick={handleScrollToContact} whileHover={{scale:1.1}} whileTap={{scale: 0.95}}>Contact Me</motion.button>
           </motion.div>
-          <motion.img variants={textVariants}  src="/scroll.png" alt="" animate="scrollButton"/>
+          <motion.img variants={textVariants}  src="./scroll.png" alt="" animate="scrollButton"/>
         </motion.div>
       </div>
 
       <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
         Software Engenieer
       </motion.div>
-
+{/* 
       <motion.div className="imageContainer" initial={{ y: 500}} 
           animate={{ y: 0 }} 
           transition={{ duration: 0.8 }}>
-        <img src="/hero-1.png" alt="" />
+        <img src={'./hero-1.png'} alt="Hero" />
+      </motion.div> */}
+      <motion.div className="imageContainer"
+        initial={{ y: 500}} 
+        animate={{ y: 0 }} 
+        transition={{ duration: 0.8 }}
+        >
+          <img  src={'./hero-1.png'} alt={'AA'} />
       </motion.div>
     </div>
   )

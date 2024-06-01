@@ -93,7 +93,7 @@ const About = () => {
     <motion.div className='about' ref={ref} variants={variants} initial="initial" animate={isInView && "animate"}>
 
       <motion.div className="imageContainer" variants={imgVariants} initial="initial" animate={isInView && "animate"} >
-        <motion.img src="/Laptop.png" alt="" />
+        <motion.img src="./Laptop.png" alt="" />
       </motion.div>
       {isInView && (
         <motion.div className="nameContainer" variants={textVariants} initial="initial" animate={isInView && "animate"} >
@@ -123,7 +123,7 @@ const About = () => {
               |
             </motion.span>
           )}
-          {letterIndex >= text.length ? (
+          {/* {letterIndex >= text.length ? (
             <motion.h5
               initial={{ opacity: 0 }}
               animate={isInView && { opacity: 1 }}
@@ -132,7 +132,7 @@ const About = () => {
 
               }}
             >Axel Aguilar</motion.h5>
-          ) : null}
+          ) : null} */}
         </motion.div>
       )}
       {letterIndex >= text.length ? (
@@ -157,23 +157,23 @@ const About = () => {
           className="circle"
           animate={{ rotate: [0, -5, 0, 5, 0], transition: { duration: 0.5, repeat: Infinity } }}
         />
-        <p className="text">essentials</p>
+        {/* <p className="text">essentials</p>
         <motion.img
           src="/arrow.svg"
           alt=""
           className="arrow"
           animate={{ rotate: [0, -5, 0, 5, 0], transition: { duration: 0.5, repeat: Infinity } }}
-        />
+        /> */}
         {/* <div className="items">
           <motion.img className='icons' src="/spotify.svg" alt="" whileHover={{ scale: 1.2 }} />
           <motion.img className='icons' src="/coffee.svg" alt="" whileHover={{ scale: 1.2 }} />
         </div> */}
 
       </motion.div>
-      <div className="essentialsItems">
+      {/* <div className="essentialsItems">
         <label className='hoverEffect'><a href={spotifyURL}>actual favorite song</a></label>
         <Spotify wide link={spotifyURL}/>
-      </div>
+      </div> */}
     </motion.div>
 
   );

@@ -38,21 +38,26 @@ const Contact = () => {
         <span>Contact</span>
         <div className='desc-contact'>
           Get in touch with me via social media or email.
+          <span>
+            <label >Email: </label>
+            axelaguilaralonso.gmail.com
+          </span>
         </div>
+        
         <motion.ul className="social-disc" variants={variants}>
           <motion.li variants={variants}>
             <a href="https://www.linkedin.com/in/axel-aguilar-328697274/" target="_blank" className="linkedin" rel="noreferrer">
-              <img src="/tools/linkedin.svg" alt="LinkedIn" />
+              <img src="./tools/linkedin.svg" alt="LinkedIn" />
             </a>
           </motion.li>
           <motion.li variants={variants}>
             <a href="https://github.com/Khaxel11" target="_blank" className="git" rel="noreferrer">
-              <img src="/tools/github.svg" alt="GitHub" />
+              <img src="./tools/github.svg" alt="GitHub" />
             </a>
           </motion.li>
           <motion.li variants={variants}>
             <a href="mailto:axelaguilaralonso@gmail.com" target="_blank" className="mail" rel="noreferrer">
-              <img src="/tools/icons8-gmail-480.svg" alt="Mail" />
+              <img src="./tools/icons8-gmail-480.svg" alt="Mail" />
             </a>
           </motion.li>
         </motion.ul>

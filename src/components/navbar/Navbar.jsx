@@ -17,8 +17,27 @@ const Navbar = () => {
         <motion.div className="social" initial={{ x: 50, scale: 0.5 }} 
           animate={{ x: 0, scale: 1 }} 
           transition={{ duration: 0.5 }}>
-          <motion.a href="https://github.com/Khaxel11" whileHover={{scale: 1.5}}><img src="/tools/github.svg" alt="" /></motion.a>
-          <motion.a href="https://www.linkedin.com/in/axel-aguilar-alonso/" whileHover={{scale: 1.2}}><img src="/tools/linkedin.svg" alt="" /></motion.a>
+            
+          <motion.a href="https://github.com/Khaxel11" whileHover={{scale: 1.5}}>
+            {/* <img src={'/tools/github.svg'} alt={'gitHub'} /> */}
+            <motion.div className="imageContainer"
+              initial={{ x: 500}} 
+              animate={{ x: 0 }} 
+              transition={{ duration: 0.8 }}
+              >
+                <img  src={'./tools/github.svg'} alt={'Git'} />
+            </motion.div>
+            </motion.a>
+          <motion.a href="https://www.linkedin.com/in/axel-aguilar-alonso/" whileHover={{scale: 1.2}}>
+            {/* <img src={'/tools/linkedin.svg'} alt={'linkedin'} /> */}
+            <motion.div className="imageContainer"
+              initial={{ x: 500}} 
+              animate={{ x: 0 }} 
+              transition={{ duration: 0.8 }}
+              >
+                <img  src={'./tools/linkedin.svg'} alt={'Linkedin'} />
+            </motion.div>
+            </motion.a>
         </motion.div>
       </div>
     </div>
