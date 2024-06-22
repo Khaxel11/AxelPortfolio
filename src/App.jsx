@@ -10,6 +10,7 @@ import Quote from "./components/quote/Quote";
 import Contact from "./components/contact/Contact";
 const App = () => {
   return <div>
+    <h5 className="working-on">This site is currenty on building <b>Not finished yet</b></h5>
     <section id="HomePage">
       <Navbar />
       <Hero />

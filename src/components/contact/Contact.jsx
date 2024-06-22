@@ -40,7 +40,7 @@ const Contact = () => {
           Get in touch with me via social media or email.
           <span>
             <label >Email: </label>
-            axelaguilaralonso.gmail.com
+            axelaguilaralonso@gmail.com
           </span>
         </div>
         
