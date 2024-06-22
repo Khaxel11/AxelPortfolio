@@ -1,0 +1,275 @@
+{
+    "name": "Axel Aguilar Alonso",
+    "title": "Software Engineer",
+    "description": "Software Engineer with experience in Fullstack development and systems analysis. Passionate about software development and design, deeply interested in exploring its applications across various fields.",
+    "education": [
+        {
+            "degree": "Software Engineering",
+            "institution": "Instituto Tecnológico de Sonora",
+            "abs": "ITSON",
+            "period": {
+                "startDate": "August 2019",
+                "endDate": "May 2023"
+            },
+            "state": "Navojoa, Sonora",
+            "honors": "Honorable Mention and highest GPA of the generation (9.9)",
+            "merit": "Academic Merit in Engineering 2022",
+            "description": "I completed 8 semesters of the Software Engineering program, acquiring a solid foundation in web application development, desktop applications, and databases. Additionally, I received an academic merit award in engineering."
+        },
+        {
+            "degree": "Software Engineering",
+            "institution": "Instituto Tecnológico de Sonora",
+            "abs": "ITSON",
+            "period": {
+                "startDate": "August 2019",
+                "endDate": "May 2023"
+            },
+            "state": "Navojoa, Sonora",
+            "honors": "Honorable Mention and highest GPA of the generation (9.9)",
+            "merit": "Academic Merit in Engineering 2022",
+            "description": "I completed 8 semesters of the Software Engineering program, acquiring a solid foundation in web application development, desktop applications, and databases. Additionally, I received an academic merit award in engineering."
+        },
+        {
+            "degree": "Programming Technician",
+            "institution": "Centro de Bachillerato Tecnológico Industrial y de Servicios",
+            "abs": "CBTis 64",
+            "period": {
+                "startDate": "September 2016",
+                "endDate": "June 2019"
+            },
+            "state": "Navojoa, Sonora",
+            "honors": "",
+            "merit": "",
+            "description": "I specialized as a Technical Programmer, achieving a GPA of 9.7. I was recognized by teachers as an exemplary and high-performing student in Navojoa, Sonora."
+        },
+        {
+            "degree": "English C1",
+            "institution": "LINGUATEC",
+            "abs": "",
+            "period": {
+                "startDate": "August 2016",
+                "endDate": "September 2018"
+            },
+            "state": "Navojoa, Sonora",
+            "honors": "+350 Hours of classes",
+            "merit": "",
+            "description": "I studied English for over a year with native-speaking teachers, specializing in daily communication. I progressed from level A1 to C1 and took business English classes."
+        }
+    ],
+    "experience": [
+        {
+            "position": "Fullstack Developer and Systems Analyst",
+            "company": "Centro de Investigación en Ingeniería de Procesos y Desarrollo Tecnológico (CIIPDETEC)",
+            "period": {
+                "start": "August 2022",
+                "end": "Present"
+            },
+            "description": "Development and systems analysis using technologies such as Angular, C#, SQL Server, and .NET."
+        },
+        {
+            "position": ".Net Developer",
+            "company": "Centro de Asesorías y Consultorías de Tecnologías de la Información (ACTI)",
+            "location": "Navojoa, Sonora, Mexico",
+            "period": {
+                "start": "August 2019",
+                "end": "April 2020"
+            },
+            "description": "Application development using .NET Framework."
+        }
+    ],
+    "skills": [
+        {
+            "icon": "./tools/angular.svg",
+            "value": "Angular",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/react.svg",
+            "value": "React",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/html.svg",
+            "value": "HTML",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/css.svg",
+            "value": "CSS / SCSS",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/bootstrap.svg",
+            "value": "Bootstrap",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/csharp.svg",
+            "value": "C#",
+            "color": "#008496"
+        },
+        {
+            "icon": "./tools/typescript.svg",
+            "value": "TypeScript",
+            "color": "#008496"
+        },
+        {
+            "icon": "./tools/javascript.svg",
+            "value": "JavaScript",
+            "color": "#008496"
+        },
+        {
+            "icon": "./tools/java.svg",
+            "value": "Java",
+            "color": "#008496"
+        },
+        {
+            "icon": "./tools/visualbasic.svg",
+            "value": "VisualBasic",
+            "color": "#008496"
+        },
+        {
+            "icon": "./tools/sqlserver.svg",
+            "value": "SQL Server / T-SQL",
+            "color": "#00965c"
+        },
+        {
+            "icon": "./tools/sqlserver.svg",
+            "value": "SQL Report Services",
+            "color": "#00965c"
+        },
+        {
+            "icon": "./tools/azure.svg",
+            "value": "Azure",
+            "color": "#00965c"
+        },
+        {
+            "icon": "./tools/mongodb.svg",
+            "value": "MongoDB",
+            "color": "#00965c"
+        },
+        {
+            "icon": "./tools/firebase.svg",
+            "value": "Firebase",
+            "color": "#00965c"
+        },
+        {
+            "icon": "./tools/ionic.svg",
+            "value": "Ionic",
+            "color": "#dd0bba"
+        },
+        {
+            "icon": "./tools/android.svg",
+            "value": "Android Java",
+            "color": "#dd0bba"
+        },
+        {
+            "icon": "./tools/github.svg",
+            "value": "GitHub",
+            "color": "#cfdd0b"
+        },
+        {
+            "icon": "./tools/photoshop.svg",
+            "value": "Photoshop",
+            "color": "#cfdd0b"
+        },
+        {
+            "icon": "./tools/figma.svg",
+            "value": "Figma",
+            "color": "#cfdd0b"
+        }
+    ],
+    "projects": [
+        {
+            "id" : 1,
+            "className": "first",
+            "name": "Cineflis",
+            "description": "Windows forms module for a fan cinema, to buy and search new movies.",
+            "imageViewer" : "./portfolio/cineflis/cineflis-home.png",
+            "technologies": [
+                "Angular",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id" : 2,
+            "className": "second",
+            "name": "Interface Components in Angular",
+            "description": "Development of reusable components in Angular for charts and animations.",
+            "imageViewer" : "./portfolio/angular-components/component-home.png",
+            "technologies": [
+                "Angular",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id" : 3,
+            "className": "third",
+            "name": "My Portfolio",
+            "description": "Personal porfolio to show my projects and knowlegde",
+            "imageViewer" : "./portfolio/portfolio/portfolio-home.png",
+            "technologies": [
+                "React",
+                "Vue.js",
+                "Sass"
+            ]
+        },
+        {
+            "id" : 4,
+            "className": "fourth",
+            "name": "Yummi",
+            "description": "An application for a food logistics startup that can schedule food deliveries without the need for a large business setup. Users can choose from various locations to schedule orders. The app also functions as a social platform where more orders lead to lower prices.",
+            "imageViewer" : "./portfolio/yummi/yummi-home.png",
+            "features": [
+                "Scheduling food deliveries",
+                "User-friendly interface for choosing delivery locations",
+                "Social platform aspect to incentivize more orders with lower prices"
+            ],
+            "technologies": [
+                "Ionic (iOS and Android)",
+                "SQL Server",
+                "C#"
+            ]
+        },
+        {
+            "id" : 5,
+            "className": "five",
+           "name": "Twenty One Pilots",
+            "description": "A fan page to showcase the band's history and promote their latest album, functioning as a Wiki where everything related to the band is available.",
+            "imageViewer" : "./portfolio/top/top-home.png",
+            "features": [
+                "Showcasing the band's history",
+                "Promoting the latest album",
+                "Functioning as a Wiki for band-related information"
+            ],
+            "technologies": [
+                "React",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "id" : 6,
+            "className": "six",
+            "name": "Distributed Minery",
+            "description": "An academic project for the traffic control of a mining station",
+            "imageViewer" : "./portfolio/minery/minery-home.png",
+            "technologies": [
+                "Angular",
+                "CSS",
+                "JavaScript"
+            ]
+        }
+    ],
+    "interests": [
+        "Software development and design",
+        "Applications of software in various fields",
+        "Exploring new technologies"
+    ],
+    "contact": {
+        "email": "axel.aguilar@example.com",
+        "linkedin": "https://www.linkedin.com/in/axel-aguilar-alonso/",
+        "github": "https://github.com/axelaguilar"
+    }
+}
