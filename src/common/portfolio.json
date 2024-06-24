@@ -186,11 +186,22 @@
             "name": "Cineflis",
             "description": "Windows forms module for a fan cinema, to buy and search new movies.",
             "imageViewer" : "./portfolio/cineflis/cineflis-home.png",
+            "images": [
+                "./codingProgress.png"
+            ],
+            "features": [
+                "Provide customers an easy way to see movie screenings at the cinema",
+                "Enable customers to book and purchase tickets in an easy way",
+                "To be able to screen low-budget local films."
+            ],
             "technologies": [
-                "Angular",
+                "Java",
+                "MySQL",
+                "Html",
                 "CSS",
                 "JavaScript"
             ]
+            
         },
         {
             "id" : 2,
@@ -198,10 +209,17 @@
             "name": "Interface Components in Angular",
             "description": "Development of reusable components in Angular for charts and animations.",
             "imageViewer" : "./portfolio/angular-components/component-home.png",
+            "images": [
+                "./codingProgress.png"
+            ],
+            "features": [
+                "Implement a user-friendly environment",
+                "Offer small reusable components to companies",
+                "Use company standards and adapt components for their use."
+            ],
             "technologies": [
                 "Angular",
-                "CSS",
-                "JavaScript"
+                "Bootstrap"
             ]
         },
         {
@@ -210,6 +228,16 @@
             "name": "My Portfolio",
             "description": "Personal porfolio to show my projects and knowlegde",
             "imageViewer" : "./portfolio/portfolio/portfolio-home.png",
+            "images": [
+                "./portfolio/portfolio/captures/portfolio-about.png",
+                "./portfolio/portfolio/captures/portfolio-parallax.png",
+                "./portfolio/portfolio/captures/portfolio-tooling.png"
+            ],
+            "features": [
+                "Show relevant information about me",
+                "Show my knowledge in software development",
+                "Offer a method of contact to people interested in my work."
+            ],
             "technologies": [
                 "React",
                 "Vue.js",
@@ -222,13 +250,19 @@
             "name": "Yummi",
             "description": "An application for a food logistics startup that can schedule food deliveries without the need for a large business setup. Users can choose from various locations to schedule orders. The app also functions as a social platform where more orders lead to lower prices.",
             "imageViewer" : "./portfolio/yummi/yummi-home.png",
+            "images": [
+                "./portfolio/yummi/captures/yummi-foodhub.png",
+                "./portfolio/yummi/captures/yummi-map.png",
+                "./portfolio/yummi/captures/yummi-product.png"
+
+            ],
             "features": [
                 "Scheduling food deliveries",
                 "User-friendly interface for choosing delivery locations",
                 "Social platform aspect to incentivize more orders with lower prices"
             ],
             "technologies": [
-                "Ionic (iOS and Android)",
+                "Ionic Angular",
                 "SQL Server",
                 "C#"
             ]
@@ -239,6 +273,9 @@
            "name": "Twenty One Pilots",
             "description": "A fan page to showcase the band's history and promote their latest album, functioning as a Wiki where everything related to the band is available.",
             "imageViewer" : "./portfolio/top/top-home.png",
+            "images": [
+                "./codingProgress.png"
+            ],
             "features": [
                 "Showcasing the band's history",
                 "Promoting the latest album",
@@ -246,19 +283,34 @@
             ],
             "technologies": [
                 "React",
-                "Tailwind CSS"
+                "Tailwind CSS",
+                "Spotify API"
             ]
         },
         {
             "id" : 6,
             "className": "six",
             "name": "Distributed Minery",
-            "description": "An academic project for the traffic control of a mining station",
+            "description": "I led the development of a school project for the control of a fictitious mining station, I had the role of managing the versions and periodically checking the programmers and also performed the mobile development using Firebase and Android Studio.",
             "imageViewer" : "./portfolio/minery/minery-home.png",
+            "images": [
+                "./portfolio/minery/captures/minery-presentation.jpg",
+                "./portfolio/minery/captures/minery-terminal.jpg",
+                "./portfolio/minery/captures/minery-uml.jpg"
+
+            ],
+            "features": [
+                "Display the traffic lights to control mine traffic",
+                "Showing responsibilities to delivery carriers and picking up materials",
+                "Being a distributed system"
+            ],
             "technologies": [
-                "Angular",
-                "CSS",
-                "JavaScript"
+                "Android Studio",
+                "Firebase",
+                "NodeJS",
+                ".NET",
+                "C#"
+
             ]
         }
     ],

@@ -1,6 +1,6 @@
 import './hero.scss'
 import { motion } from 'framer-motion'
-import LaptopImage from '../../../public/Laptop.png';
+// import LaptopImage from '../../../public/Laptop.png';
 
 const textVariants = {
   initial: {
