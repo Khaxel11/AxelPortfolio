@@ -12,13 +12,14 @@ const ProjectCard = ({ project, index }) => {
 
     const openModal = () => setModalIsOpen(true);
     const closeModal = () => setModalIsOpen(false);
-
+    // const isInView = useInView(ref, {margin:"-100px"});
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
     return (
         <>
             <motion.div
                 className={`bento-item ${project.className}`}
                 ref={ref}
-                initial={{ opacity: 0, y: 50 }}
+                initial={isMobile ? {} :{ opacity: 0, y: 50 }}
                 animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ delay: index * 0.2, duration: 0.6 }}
                 whileHover={{ scale: 1.01 }}
@@ -29,11 +30,11 @@ const ProjectCard = ({ project, index }) => {
                     </div>
                     <motion.div
                         className="textContainer-port"
-                        initial={{ opacity: 0 }}
-                        whileHover={{ opacity: 1 }}
+                        initial={isMobile ? {opacity: 1} : { opacity: 0}}
+                        whileHover={{ opacity: 1 } }
                         transition={{ duration: 0.3 }}
                     >
-                        <h2>{project.name}</h2>
+                        <h2 >{project.name}</h2>
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             transition={{ duration: 0.2 }}

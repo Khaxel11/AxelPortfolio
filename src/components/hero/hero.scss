@@ -39,6 +39,7 @@
                     cursor: pointer;
                     font-weight: 300;
                 }
+                z-index: 10;
             }
 
             img{
@@ -52,7 +53,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        z-index: 2;
+        z-index: 3;
         img {
             filter: drop-shadow(30px 30px 20px #b9312549);
             mask-image: linear-gradient(black 90%, transparent);

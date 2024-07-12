@@ -150,8 +150,8 @@ h3 {
 }
 
 .bento-item {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  // background-color: #f0f0f0;
+  border: 1px solid #3b3b3b;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -162,13 +162,13 @@ h3 {
   transition: transform 0.3s, box-shadow 0.3s;
   min-height: 200px;
   border-radius: 10px;
-  z-index: 0; /* Asegura que el box-shadow se aplique correctamente */
+  z-index: 0; 
 }
 
-.bento-item:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  z-index: 1; /* Asegura que el box-shadow se vea por encima de otros elementos */
-}
+// .bento-item:hover {
+//   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+//   z-index: 1; 
+// }
 
 .img-content {
   width: 100%;
