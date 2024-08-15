@@ -63,42 +63,42 @@ const Services = () => {
                 </motion.div>
                 <motion.div className="title">
                 <h1>Fast <motion.b whileHover={{color: "#ea412a"}}b>Adaptability</motion.b></h1>
-                <button>Know More</button>
+                {/* <button>Know More</button> */}
                 </motion.div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
-                <motion.div className="box" whileHover={{backgroundColor: "#3b3b3b", color: "#000000"}}>
+                <motion.div className="box" whileHover={{backgroundColor: "#1a1a1a", color: "#000000"}}>
                     <h2>Soft Skills</h2>
                     <p><b>● </b>Leadership and Teamwork</p>
                     <p><b>● </b>Communication</p>
                     <p><b>● </b>Creativity and Innovation</p>
                     <p><b>● </b>Problem Solving and Critical Thinking</p>
                     <p><b>● </b>Continuous Learning</p>
-                    <button>Learn More</button>
+                    {/* <button>Learn More</button> */}
                 </motion.div>
-                <motion.div className="box" whileHover={{backgroundColor: "#3b3b3b", color: "#000000"}}>
+                <motion.div className="box" whileHover={{backgroundColor: "#1a1a1a", color: "#000000"}}>
                     <h2>Languages</h2>
                     <p><b>● </b>Spanish <b>(Native)</b></p>
                     <p><b>● </b>English <b>(C1)</b></p>
                     <p><b>● </b>French <b>(A1)</b></p>
                     
                 
-                    <button>Learn More</button>
+                    {/* <button>Learn More</button> */}
                 </motion.div>
-                <motion.div className="box" whileHover={{backgroundColor: "#3b3b3b", color: "#000000"}}>
+                <motion.div className="box" whileHover={{backgroundColor: "#1a1a1a", color: "#000000"}}>
                     <h2>Awards</h2>
-                    <p><b>● </b>Hightest GPA in ITSON <a href=""> (Score 99)</a></p>
+                    <p><b>● </b>Hightest GPA in ITSON <a > (Score 99)</a></p>
                     <p><b>● </b>Academic Merit in Engineering<a href="https://www.itson.mx/Lists/Noticias/DispForm.aspx?ID=4570&ContentTypeId=0x0104004DA3B718FBF0C6419EA99C9ECEC963DC"> (MAI)</a></p>
                     <p><b>● </b>Valuable Participation in <a href="https://diariodelyaqui.mx/sonora/exitoso-evento-de-nasa/22876">NASA SPACE APPS CHALLENGE 2019</a></p>
-                    <button>Learn More</button>
+                    {/* <button>Learn More</button> */}
                 </motion.div>
-                <motion.div className="box" whileHover={{backgroundColor: "#3b3b3b", color: "#000000"}}>
+                {/* <motion.div className="box" whileHover={{backgroundColor: "#3b3b3b", color: "#000000"}}>
                     <h2>Personal Information</h2>
                     <p><b>● </b>I ♥ Coffee</p>
                     <p><b>● </b>I ♥ Code and Music</p>
                     
                     <button>Learn More</button>
-                </motion.div>
+                </motion.div> */}
 
             </motion.div>
         </motion.div>

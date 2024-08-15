@@ -1,16 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import './carousel.scss'; // Importa tus estilos CSS/SCSS
-
-// const images = [
-//   'https://via.placeholder.com/600x300?text=Image+1',
-//   'https://via.placeholder.com/600x300?text=Image+2',
-//   'https://via.placeholder.com/600x300?text=Image+3',
-//   'https://via.placeholder.com/600x300?text=Image+4',
-//   'https://via.placeholder.com/600x300?text=Image+5',
-//   'https://via.placeholder.com/600x300?text=Image+6',
-//   'https://via.placeholder.com/600x300?text=Image+7',
-// ];
+import './carousel.scss';
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,19 +9,17 @@ const Carousel = ({ images }) => {
 
   const variants = {
     enter: (direction) => ({
-      x: direction > 0 ? 1000 : -1000,
+      x: direction > 0 ? '100%' : '-100%',
       opacity: 0,
     }),
     center: {
-      zIndex: 1,
       x: 0,
       opacity: 1,
+      transition: {
+        x: { type: 'tween', duration: 0.5 },
+        opacity: { duration: 0.5 },
+      },
     },
-    exit: (direction) => ({
-      zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
-      opacity: 0,
-    }),
   };
 
   const nextImage = () => {
@@ -65,10 +53,6 @@ const Carousel = ({ images }) => {
             initial="enter"
             animate="center"
             exit="exit"
-            transition={{
-              x: { type: 'spring', stiffness: 300, damping: 30 },
-              opacity: { duration: 0.2 },
-            }}
             className="carousel-image"
             onClick={openModal}
           />
@@ -84,7 +68,9 @@ const Carousel = ({ images }) => {
               setDirection(index > currentIndex ? 1 : -1);
               setCurrentIndex(index);
             }}
-          >■</div>
+          >
+            <img src={image} alt={`Thumbnail ${index + 1}`} />
+          </div>
         ))}
       </div>
       {isModalOpen && (

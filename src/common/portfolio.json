@@ -89,6 +89,11 @@
             "color": "#960000"
         },
         {
+            "icon": "./tools/vitejs.svg",
+            "value": "Vite",
+            "color": "#960000"
+        },
+        {
             "icon": "./tools/html.svg",
             "value": "HTML",
             "color": "#960000"
@@ -101,6 +106,11 @@
         {
             "icon": "./tools/bootstrap.svg",
             "value": "Bootstrap",
+            "color": "#960000"
+        },
+        {
+            "icon": "./tools/tailwindcss.svg",
+            "value": "Tailwind",
             "color": "#960000"
         },
         {
@@ -163,16 +173,7 @@
             "value": "Android Java",
             "color": "#dd0bba"
         },
-        {
-            "icon": "./tools/github.svg",
-            "value": "GitHub",
-            "color": "#cfdd0b"
-        },
-        {
-            "icon": "./tools/photoshop.svg",
-            "value": "Photoshop",
-            "color": "#cfdd0b"
-        },
+
         {
             "icon": "./tools/figma.svg",
             "value": "Figma",
@@ -183,34 +184,12 @@
         {
             "id" : 1,
             "className": "first",
-            "name": "Cineflis",
-            "description": "Windows forms module for a fan cinema, to buy and search new movies.",
-            "imageViewer" : "./portfolio/cineflis/cineflis-home.png",
+            "name": "Job Projects",
+            "description": "I made a lot of components, modules, reports using many techs",
+            "imageViewer" : "./portfolio/angular-components/job-project.png",
             "images": [
-                "./codingProgress.png"
-            ],
-            "features": [
-                "Provide customers an easy way to see movie screenings at the cinema",
-                "Enable customers to book and purchase tickets in an easy way",
-                "To be able to screen low-budget local films."
-            ],
-            "technologies": [
-                "Java",
-                "MySQL",
-                "Html",
-                "CSS",
-                "JavaScript"
-            ]
-            
-        },
-        {
-            "id" : 2,
-            "className": "second",
-            "name": "Interface Components in Angular",
-            "description": "Development of reusable components in Angular for charts and animations.",
-            "imageViewer" : "./portfolio/angular-components/component-home.png",
-            "images": [
-                "./codingProgress.png"
+                
+                "./portfolio/angular-components/component-home.png"
             ],
             "features": [
                 "Implement a user-friendly environment",
@@ -218,8 +197,66 @@
                 "Use company standards and adapt components for their use."
             ],
             "technologies": [
-                "Angular",
-                "Bootstrap"
+                {
+                    "icon": "./tools/angular.svg",
+                    "name": "Angular"
+                },
+                {
+                    "icon": "./tools/css.svg",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "./tools/csharp.svg",
+                    "name": "C#"
+                },
+                {
+                    "icon": "./tools/sqlserver.svg",
+                    "name": "SQL Server"
+                },
+                {
+                    "icon": "./tools/bootstrap.svg",
+                    "name": "Bootstrap"
+                },
+                {
+                    "icon": "./tools/visualbasic.svg",
+                    "name": "VisualBasic"
+                },
+                {
+                    "icon": "./tools/sqlserver.svg",
+                    "name": "SQL Server Reporting Services"
+                }
+            ]
+           
+            
+        },
+        {
+            "id" : 2,
+            "className": "second",
+            "name": "Twenty One Pilots",
+            "description": "A fan page to showcase the band's history and promote their latest album, functioning as a Wiki where everything related to the band is available.",
+            "imageViewer" : "./portfolio/top/top-page.png",
+            "images": [
+                "./portfolio/top/top-home.png",
+                "./codingProgress.png"
+            ],
+            "features": [
+                "Showcasing the band's history",
+                "Promoting the latest album",
+                "Functioning as a Wiki for band-related information"
+            ],
+            "technologies": [
+                {
+                    "icon": "./tools/react.svg",
+                    "name": "React"
+                },
+                {
+                    "icon": "./tools/vitejs.svg",
+                    "name": "ViteJS"
+                },
+                {
+                    "icon": "./tools/css.svg",
+                    "name": "SCSS"
+                }
             ]
         },
         {
@@ -229,6 +266,7 @@
             "description": "Personal porfolio to show my projects and knowlegde",
             "imageViewer" : "./portfolio/portfolio/portfolio-home.png",
             "images": [
+                "./portfolio/portfolio/captures/portfolio-home.png",
                 "./portfolio/portfolio/captures/portfolio-about.png",
                 "./portfolio/portfolio/captures/portfolio-parallax.png",
                 "./portfolio/portfolio/captures/portfolio-tooling.png"
@@ -239,9 +277,19 @@
                 "Offer a method of contact to people interested in my work."
             ],
             "technologies": [
-                "React",
-                "Vue.js",
-                "Sass"
+                {
+                    "icon": "./tools/react.svg",
+                    "name": "React"
+                },
+                {
+                    "icon": "./tools/vitejs.svg",
+                    "name": "ViteJS"
+                },
+                {
+                    "icon": "./tools/css.svg",
+                    "name": "SCSS"
+                }
+             
             ]
         },
         {
@@ -249,7 +297,7 @@
             "className": "fourth",
             "name": "Yummi",
             "description": "An application for a food logistics startup that can schedule food deliveries without the need for a large business setup. Users can choose from various locations to schedule orders. The app also functions as a social platform where more orders lead to lower prices.",
-            "imageViewer" : "./portfolio/yummi/yummi-home.png",
+            "imageViewer" : "./portfolio/yummi/yummi-page.png",
             "images": [
                 "./portfolio/yummi/captures/yummi-foodhub.png",
                 "./portfolio/yummi/captures/yummi-map.png",
@@ -262,29 +310,55 @@
                 "Social platform aspect to incentivize more orders with lower prices"
             ],
             "technologies": [
-                "Ionic Angular",
-                "SQL Server",
-                "C#"
+                {
+                    "icon": "./tools/ionic.svg",
+                    "name": "Ionic"
+                },
+                {
+                    "icon": "./tools/angular.svg",
+                    "name": "Angular"
+                },
+                {
+                    "icon": "./tools/css.svg",
+                    "name": "CSS"
+                },
+                {
+                    "icon": "./tools/csharp.svg",
+                    "name": "C#"
+                },
+                {
+                    "icon": "./tools/sqlserver.svg",
+                    "name": "SQL Server"
+                }
             ]
         },
         {
+           
             "id" : 5,
             "className": "five",
-           "name": "Twenty One Pilots",
-            "description": "A fan page to showcase the band's history and promote their latest album, functioning as a Wiki where everything related to the band is available.",
-            "imageViewer" : "./portfolio/top/top-home.png",
+            "name": "Cineflis",
+            "description": "Landing page to show a service offered by a fictitious company, offers detailed view of the service, product statistics, download site, plans offered, testimonials and corporate allies of the company. ",
+            "imageViewer" : "./portfolio/cineflis/cineflis-home.png",
             "images": [
-                "./codingProgress.png"
+                "./portfolio/cineflis/captures/cineflis-landing.png",
+                "./portfolio/cineflis/captures/cineflis-plans.png",
+                "./portfolio/cineflis/captures/cineflis-testimonials.png",
+                "./portfolio/cineflis/captures/cineflis-footer.png"
             ],
             "features": [
-                "Showcasing the band's history",
-                "Promoting the latest album",
-                "Functioning as a Wiki for band-related information"
+                "Provide customers an easy way to see the services offers",
+                "Offers security to the user of the service he/she is seeking to contract",
+                "Provides product information to the end user"
             ],
             "technologies": [
-                "React",
-                "Tailwind CSS",
-                "Spotify API"
+                {
+                    "icon": "./tools/react.svg",
+                    "name": "React"
+                },
+                {
+                    "icon": "./tools/tailwindcss.svg",
+                    "name": "Tailwind"
+                }                
             ]
         },
         {
@@ -304,13 +378,24 @@
                 "Showing responsibilities to delivery carriers and picking up materials",
                 "Being a distributed system"
             ],
+          
             "technologies": [
-                "Android Studio",
-                "Firebase",
-                "NodeJS",
-                ".NET",
-                "C#"
-
+                {
+                    "icon": "./tools/android.svg",
+                    "name": "Android Studio"
+                },
+                {
+                    "icon": "./tools/firebase.svg",
+                    "name": "Firebase"
+                },
+                {
+                    "icon": "./tools/nodejs.svg",
+                    "name": "NodeJS"
+                },
+                {
+                    "icon": "./tools/csharp.svg",
+                    "name": "C#"
+                }         
             ]
         }
     ],
